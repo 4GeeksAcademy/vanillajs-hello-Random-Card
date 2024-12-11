@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.container {
+  width: 300px;
+  height: 440px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.medium {
+  font: 70px/440px Arial, serif;
+  text-align: center;
+}
+
+.top {
+  content: "♥";
+  font-size: 90px;
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  color: red;
+  transform: rotate(180deg);
+}
+
+.bottom {
+  content: "♦";
+  font-size: 90px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  color: red;
+}
